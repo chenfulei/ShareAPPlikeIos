@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:text="Android默认"
+            android:textSize="30dp"
+            android:id="@+id/android_btn"
+            android:background="@drawable/button_selector"
+            android:textColor="#ffffff"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_above="@+id/ios_btn"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="56dp" />
+
+        <Button
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:text="仿ios"
+            android:id="@+id/ios_btn"
+            android:background="@drawable/button_selector"
+            android:textColor="#ffffff"
+            android:textSize="30dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"/>
+
+        <Button
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:text="bottomSheet"
+            android:background="@drawable/button_selector"
+            android:textColor="#ffffff"
+            android:textSize="30dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_below="@+id/ios_btn"
+            android:layout_alignLeft="@+id/ios_btn"
+            android:layout_marginTop="67dp"
+            android:id="@+id/bottom_btn" />
+
+        <Button
+            android:text="JustifyTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="12dp"
+            android:id="@+id/btn_justify_text_view"/>
+
+
+
+
+    </RelativeLayout>
+</LinearLayout>
